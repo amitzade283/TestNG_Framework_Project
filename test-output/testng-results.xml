@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-26T21:08:31 IST" name="Suite" finished-at="2023-11-26T21:09:04 IST" duration-ms="32708">
+    <groups>
+    </groups>
+    <test started-at="2023-11-26T21:08:31 IST" name="Test" finished-at="2023-11-26T21:09:04 IST" duration-ms="32708">
+      <class name="testcases.RegisterTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.RegisterTestCases@4d9e68d0]" started-at="2023-11-26T21:08:32 IST" name="launchBrowser" finished-at="2023-11-26T21:08:37 IST" duration-ms="5604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyRegistrationWithBlankData()[pri:0, instance:testcases.RegisterTestCases@4d9e68d0]" started-at="2023-11-26T21:08:37 IST" name="verifyRegistrationWithBlankData" finished-at="2023-11-26T21:08:41 IST" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithBlankData -->
+        <test-method signature="verifyRegistrationWithExistingData()[pri:0, instance:testcases.RegisterTestCases@4d9e68d0]" started-at="2023-11-26T21:08:41 IST" name="verifyRegistrationWithExistingData" finished-at="2023-11-26T21:08:42 IST" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithExistingData -->
+        <test-method signature="verifyRegistrationWithInValidData()[pri:0, instance:testcases.RegisterTestCases@4d9e68d0]" started-at="2023-11-26T21:08:42 IST" name="verifyRegistrationWithInValidData" finished-at="2023-11-26T21:08:43 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithInValidData -->
+        <test-method signature="verifyRegistrationWithValidData()[pri:0, instance:testcases.RegisterTestCases@4d9e68d0]" started-at="2023-11-26T21:08:43 IST" name="verifyRegistrationWithValidData" finished-at="2023-11-26T21:08:45 IST" duration-ms="1733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithValidData -->
+      </class> <!-- testcases.RegisterTestCases -->
+      <class name="testcases.LoginTestCases">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcases.LoginTestCases@5fdcaa40]" started-at="2023-11-26T21:08:45 IST" name="launchBrowser" finished-at="2023-11-26T21:08:52 IST" duration-ms="7404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginWithInvalidData()[pri:1, instance:testcases.LoginTestCases@5fdcaa40]" started-at="2023-11-26T21:08:52 IST" name="verifyLoginWithInvalidData" finished-at="2023-11-26T21:09:02 IST" duration-ms="10004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidData -->
+        <test-method signature="verifyLoginWithValidData()[pri:2, instance:testcases.LoginTestCases@5fdcaa40]" started-at="2023-11-26T21:09:02 IST" name="verifyLoginWithValidData" finished-at="2023-11-26T21:09:04 IST" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidData -->
+      </class> <!-- testcases.LoginTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
