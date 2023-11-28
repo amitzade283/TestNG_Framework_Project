@@ -56,22 +56,22 @@ public class RegisterTestCases extends BaseClass {
 		commonMethods.expliciteWaits(driver,3, rpo.enterfirstname());
 		
 		rpo.enterfirstname().clear();
-		rpo.enterfirstname().sendKeys("TestFirst");
+		rpo.enterfirstname().sendKeys(constants.firstname);
         
 		rpo.enterlastname().clear();
-		rpo.enterlastname().sendKeys("TestLast");
+		rpo.enterlastname().sendKeys(constants.lastname);
         
 		rpo.enteremail().clear();
-		rpo.enteremail().sendKeys("test123gmail.com");
+		rpo.enteremail().sendKeys(constants.invalidEmail);
         
 		rpo.entertelephone().clear();
-		rpo.entertelephone().sendKeys("123456789");
+		rpo.entertelephone().sendKeys(constants.telephone);
         
 		rpo.enterpassword().clear();
-		rpo.enterpassword().sendKeys("Test@123");
+		rpo.enterpassword().sendKeys(constants.password);
         
 		rpo.enterconfirmpw().clear();
-		rpo.enterconfirmpw().sendKeys("Test@123");
+		rpo.enterconfirmpw().sendKeys(constants.confirmpassword);
 
 		rpo.clickOnSubscribe().click();
 
@@ -96,23 +96,23 @@ public class RegisterTestCases extends BaseClass {
 		commonMethods.expliciteWaits(driver,3, rpo.enterfirstname());
 		
 		rpo.enterfirstname().clear();
-		rpo.enterfirstname().sendKeys("TestFirst");
+		rpo.enterfirstname().sendKeys(constants.firstname);
         
 		rpo.enterlastname().clear();
-		rpo.enterlastname().sendKeys("TestLast");
+		rpo.enterlastname().sendKeys(constants.lastname);
 
 		rpo.enteremail().clear();
 		rpo.enteremail().sendKeys(randomEmail);
 		System.out.println(randomEmail);
 
 		rpo.entertelephone().clear();
-		rpo.entertelephone().sendKeys("123456789");
+		rpo.entertelephone().sendKeys(constants.telephone);
         
 		rpo.enterpassword().clear();
-		rpo.enterpassword().sendKeys("Test@123");
+		rpo.enterpassword().sendKeys(constants.password);
         
 		rpo.enterconfirmpw().clear();
-		rpo.enterconfirmpw().sendKeys("Test@123");
+		rpo.enterconfirmpw().sendKeys(constants.confirmpassword);
 
 		rpo.clickOnSubscribe().click();
 
@@ -151,17 +151,17 @@ public class RegisterTestCases extends BaseClass {
 
 		commonMethods.expliciteWaits(driver,3, rpo.enterfirstname());
 		
-		rpo.enterfirstname().sendKeys("");
+		rpo.enterfirstname().sendKeys(constants.firstname1);
 
-		rpo.enterlastname().sendKeys("");
+		rpo.enterlastname().sendKeys(constants.lastname1);
 
-		rpo.enteremail().sendKeys("");
+		rpo.enteremail().sendKeys(constants.Email1);
 
-		rpo.entertelephone().sendKeys("");
+		rpo.entertelephone().sendKeys(constants.telephone1);
 
-		rpo.enterpassword().sendKeys("");
+		rpo.enterpassword().sendKeys(constants.password1);
 
-		rpo.enterconfirmpw().sendKeys("");
+		rpo.enterconfirmpw().sendKeys(constants.confirmpassword1);
 
 		rpo.clickOnSubscribe().click();
 
@@ -197,22 +197,22 @@ public class RegisterTestCases extends BaseClass {
 		commonMethods.expliciteWaits(driver,3, rpo.enterfirstname());
         
 		rpo.enterfirstname().clear();
-		rpo.enterfirstname().sendKeys("Test123");
+		rpo.enterfirstname().sendKeys(constants.firstname);
 		
 		rpo.enterlastname().clear();
-		rpo.enterlastname().sendKeys("Test456");
+		rpo.enterlastname().sendKeys(constants.lastname);
 		
 		rpo.enteremail().clear();
-		rpo.enteremail().sendKeys("Test00@gmail.com");
+		rpo.enteremail().sendKeys(constants.existingEmail);
 		
 		rpo.entertelephone().clear();
-		rpo.entertelephone().sendKeys("123456");
+		rpo.entertelephone().sendKeys(constants.telephone);
 		
 		rpo.enterpassword().clear();
-		rpo.enterpassword().sendKeys("Test@123");
+		rpo.enterpassword().sendKeys(constants.password);
 		
 		rpo.enterconfirmpw().clear();		
-		rpo.enterconfirmpw().sendKeys("Test@123");
+		rpo.enterconfirmpw().sendKeys(constants.confirmpassword);
 		
 		rpo.clickOnSubscribe().click();		
 		

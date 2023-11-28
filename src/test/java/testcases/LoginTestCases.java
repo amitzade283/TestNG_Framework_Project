@@ -30,7 +30,7 @@ public class LoginTestCases extends BaseClass {
 		System.out.println(RegisterTestCases.randomEmail);
 
 		lpo.enterpassword().clear();
-		lpo.enterpassword().sendKeys("Test@123");
+		lpo.enterpassword().sendKeys(constants.password);
 
 		lpo.clickonloginbutton().click();
 
@@ -59,7 +59,7 @@ public class LoginTestCases extends BaseClass {
 		lpo.enterEmail().sendKeys(RegisterTestCases.randomEmail);
 		System.out.println(RegisterTestCases.randomEmail);
 
-		lpo.enterpassword().sendKeys("Test123");
+		lpo.enterpassword().sendKeys(constants.Invalidpasssword);
 
 		lpo.clickonloginbutton().click();
 
